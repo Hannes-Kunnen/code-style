@@ -1,0 +1,87 @@
+# Logs
+logs
+*.log
+*.log.*
+npm-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Compiled output
+build
+dist
+dist-ssr
+tmp
+out-tsc
+bazel-out
+
+# Dependencies
+node_modules
+
+# Profiling files
+chrome-profiler-events*.json
+
+# IDE - VSCODE
+**/.vscode/*
+!**/.vscode/settings.json
+!**/.vscode/tasks.json
+!**/.vscode/launch.json
+!**/.vscode/extensions.json
+!**/.vscode/*.code-snippets
+
+## Local History for Visual Studio Code
+.history/
+
+## Built Visual Studio Code Extensions
+*.vsix
+
+# IDE - JetBrains
+**/.idea
+
+# IDE - others
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Yarn
+**/.yarn/*
+!**/.yarn/patches
+!**/.yarn/plugins
+!**/.yarn/releases
+!**/.yarn/sdks
+# Swap the comments on the following lines if you wish to use zero-installs
+# Documentation here: https://yarnpkg.com/features/zero-installs
+#!/..yarn/cache
+.pnp.*
+
+# Svelte
+/.svelte-kit
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+
+# System Files
+.DS_Store
+Desktop.ini
+Thumbs.db
+.Spotlight-V100
+.Trashes
+
+# misc
+**/.angular/cache
+.sass-cache
+connect.lock
+coverage
+.nyc_output
+typings
+testem.log
+.eslintcache
+.env
+*.local
+*.local.*

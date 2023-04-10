@@ -1,0 +1,14 @@
+{
+    "name": "code-style",
+    "version": "1.0.0",
+    "description": "Repository containing configurations for code style tools",
+    "author": "Hannes Kunnen",
+    "homepage": "https://github.com/Hannes-Kunnen/code-style#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Hannes-Kunnen/code-style.git"
+    },
+    "license": "LGPL-3.0",
+    "private": true,
+    "packageManager": "yarn@3.2.4"
+}
