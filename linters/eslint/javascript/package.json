@@ -1,0 +1,28 @@
+{
+    "name": "@hannes-kunnen/eslint-config-javascript",
+    "version": "1.0.0-alpha.0",
+    "description": "ESLint configuration for JavaScript files",
+    "keywords": [
+        "code style",
+        "eslint",
+        "eslintconfig",
+        "javascript"
+    ],
+    "author": "Hannes Kunnen",
+    "main": "index.js",
+    "homepage": "https://github.com/Hannes-Kunnen/code-style/tree/main/linters/eslint/javascript#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Hannes-Kunnen/code-style.git"
+    },
+    "license": "LGPL-3.0",
+    "dependencies": {
+        "eslint": "^8.38.0",
+        "eslint-plugin-import": "^2.27.5",
+        "eslint-plugin-unicorn": "^46.0.0"
+    },
+    "files": [
+        "index.js"
+    ],
+    "packageManager": "yarn@3.2.4"
+}
