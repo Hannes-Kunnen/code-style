@@ -1,6 +1,6 @@
 {
     "name": "@hannes-kunnen/eslint-config-javascript",
-    "version": "1.0.0-alpha.0",
+    "version": "1.0.0-beta.0",
     "description": "ESLint configuration for JavaScript files",
     "keywords": [
         "code style",
