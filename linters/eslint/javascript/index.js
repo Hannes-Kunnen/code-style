@@ -96,7 +96,6 @@ module.exports = {
         'no-array-constructor': 'error',
         'no-bitwise': 'error',
         'no-caller': 'error',
-        'no-confusing-arrow': 'error',
         'no-constant-binary-expression': 'error',
         'no-constructor-return': 'error',
         'no-else-return': 'error',
