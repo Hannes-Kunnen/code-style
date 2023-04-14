@@ -1,0 +1,29 @@
+{
+    "name": "@hannes-kunnen/eslint-config-typescript",
+    "version": "0.0.0-alpha.0",
+    "description": "ESLint configuration for TypeScript files",
+    "keywords": [
+        "code style",
+        "eslint",
+        "eslintconfig",
+        "typescript"
+    ],
+    "author": "Hannes Kunnen",
+    "main": "index.js",
+    "homepage": "https://github.com/Hannes-Kunnen/code-style/tree/main/linters/eslint/typescript#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Hannes-Kunnen/code-style.git"
+    },
+    "license": "LGPL-3.0",
+    "dependencies": {
+        "@hannes-kunnen/eslint-config-javascript": "1.0.0-beta.0",
+        "@typescript-eslint/eslint-plugin": "^5.58.0",
+        "@typescript-eslint/parser": "^5.58.0",
+        "eslint": "^8.38.0"
+    },
+    "files": [
+        "index.js"
+    ],
+    "packageManager": "yarn@3.2.4"
+}
