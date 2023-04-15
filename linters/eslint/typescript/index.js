@@ -9,6 +9,7 @@ module.exports = {
         'plugin:@typescript-eslint/recommended-requiring-type-checking',
         'plugin:@typescript-eslint/strict',
     ],
+    parser: '@typescript-eslint/parser',
     parserOptions: {
         project: ['tsconfig.json'],
         sourceType: 'module',
