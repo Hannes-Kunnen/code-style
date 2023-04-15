@@ -74,14 +74,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@hannes-kunnen/eslint-config-javascript@npm:1.0.0-beta.0":
-  version: 1.0.0-beta.0
-  resolution: "@hannes-kunnen/eslint-config-javascript@npm:1.0.0-beta.0"
+"@hannes-kunnen/eslint-config-javascript@npm:1.0.0-beta.1":
+  version: 1.0.0-beta.1
+  resolution: "@hannes-kunnen/eslint-config-javascript@npm:1.0.0-beta.1"
   dependencies:
     eslint: ^8.38.0
     eslint-plugin-import: ^2.27.5
     eslint-plugin-unicorn: ^46.0.0
-  checksum: 23ea64ece287ac21efc001c889cae78a49be1faa8e7d8e695e3cb4207186cc49ff5c725529b1825089f5c520ce93ebca8448d4295a7f009c10637878b0682a83
+  checksum: 9460deaec9e156730e38d5520ac053d4ab69f37431aaa8a47718593212c613d79f098a151a285f207cfbde4c569f4e42a9d7075ac37f91aeea457405699c6770
   languageName: node
   linkType: hard
 
@@ -89,7 +89,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@hannes-kunnen/eslint-config-typescript@workspace:."
   dependencies:
-    "@hannes-kunnen/eslint-config-javascript": 1.0.0-beta.0
+    "@hannes-kunnen/eslint-config-javascript": 1.0.0-beta.1
     "@typescript-eslint/eslint-plugin": ^5.58.0
     "@typescript-eslint/parser": ^5.58.0
     eslint: ^8.38.0

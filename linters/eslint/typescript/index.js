@@ -105,14 +105,8 @@ module.exports = {
         '@typescript-eslint/no-duplicate-type-constituents': 'error',
         '@typescript-eslint/no-dynamic-delete': 'error',
         '@typescript-eslint/no-explicit-any': 'off',
-        '@typescript-eslint/no-extra-parens': [
-            'error',
-            'all',
-            {
-                nestedBinaryExpressions: false,
-            },
-        ],
         '@typescript-eslint/no-extraneous-class': 'off',
+        '@typescript-eslint/no-extra-parens': 'error',
         '@typescript-eslint/no-invalid-this': 'error',
         '@typescript-eslint/no-invalid-void-type': 'error',
         '@typescript-eslint/no-meaningless-void-operator': 'error',
@@ -122,7 +116,12 @@ module.exports = {
         '@typescript-eslint/no-redeclare': 'error',
         '@typescript-eslint/no-redundant-type-constituents': 'error',
         '@typescript-eslint/no-require-imports': 'error',
-        '@typescript-eslint/no-shadow': 'error',
+        '@typescript-eslint/no-shadow': [
+            'error',
+            {
+                hoist: 'all',
+            }
+        ],
         '@typescript-eslint/no-throw-literal': 'error',
         '@typescript-eslint/no-type-alias': 'error',
         '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'error',
@@ -212,6 +211,7 @@ module.exports = {
 
         // Disabled ESLint-core rules
         'brace-style': 'off', // Fights with @typescript-eslint/brace-style
+        'camelcase': 'off', // Fights with @typescript-eslint/naming-convention
         'comma-dangle': 'off', // Fights with @typescript-eslint/comma-dangle
         'comma-spacing': 'off', // Fights with @typescript-eslint/comma-spacing
         'default-param-last': 'off', // Fights with @typescript-eslint/default-param-last
