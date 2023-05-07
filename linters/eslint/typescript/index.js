@@ -43,6 +43,7 @@ module.exports = {
             },
         ],
         '@typescript-eslint/func-call-spacing': 'error',
+        '@typescript-eslint/key-spacing': 'error',
         '@typescript-eslint/keyword-spacing': 'error',
         '@typescript-eslint/member-delimiter-style': 'error',
         '@typescript-eslint/member-ordering': [
@@ -199,6 +200,7 @@ module.exports = {
         'dot-notation': 'off', // Fights with @typescript-eslint/dot-notation
         'func-call-spacing': 'off', // Fights with @typescript-eslint/func-call-spacing
         'indent': 'off', // Indent is broken in TypeScript, see https://github.com/typescript-eslint/typescript-eslint/issues/1824
+        'key-spacing': 'off', // Fights with @typescript-eslint/key-spacing
         'keyword-spacing': 'off', // Fights with @typescript-eslint/keyword-spacing
         'no-confusing-arrow': 'off', // Since types are required this should no longer be confusing
         'no-dupe-class-members': 'off', // Fights with @typescript-eslint/no-dupe-class-members
