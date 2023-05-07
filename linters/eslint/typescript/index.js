@@ -219,6 +219,7 @@ module.exports = {
         'camelcase': 'off', // Fights with @typescript-eslint/naming-convention
         'comma-dangle': 'off', // Fights with @typescript-eslint/comma-dangle
         'comma-spacing': 'off', // Fights with @typescript-eslint/comma-spacing
+        'consistent-return': 'off', // Does not use type information so can report incorrect errors
         'default-param-last': 'off', // Fights with @typescript-eslint/default-param-last
         'dot-notation': 'off', // Fights with @typescript-eslint/dot-notation
         'func-call-spacing': 'off', // Fights with @typescript-eslint/func-call-spacing
