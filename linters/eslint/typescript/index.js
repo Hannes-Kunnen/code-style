@@ -103,6 +103,12 @@ module.exports = {
             }
         ],
         '@typescript-eslint/no-extraneous-class': 'off',
+        '@typescript-eslint/no-inferrable-types': [
+            'error',
+            {
+                ignoreProperties: true,
+            },
+        ],
         '@typescript-eslint/no-invalid-this': 'error',
         '@typescript-eslint/no-invalid-void-type': 'error',
         '@typescript-eslint/no-meaningless-void-operator': 'error',
