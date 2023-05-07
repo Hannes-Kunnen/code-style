@@ -172,7 +172,12 @@ module.exports = {
                 allowTemplateLiterals: true,
             },
         ],
-        '@typescript-eslint/require-array-sort-compare': 'error',
+        '@typescript-eslint/require-array-sort-compare': [
+            'error',
+            {
+                ignoreStringArrays: true,
+            },
+        ],
         '@typescript-eslint/require-await': 'error',
         '@typescript-eslint/return-await': 'error',
         '@typescript-eslint/semi': 'error',
