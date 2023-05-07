@@ -151,7 +151,14 @@ module.exports = {
         'no-unreachable-loop': 'error',
         'no-unused-expressions': 'error',
         'no-unused-private-class-members': 'error',
-        'no-use-before-define': 'error',
+        'no-use-before-define': [
+            'error',
+            {
+                classes: true,
+                functions: false,
+                variables: true,
+            },
+        ],
         'no-useless-call': 'error',
         'no-useless-computed-key': 'error',
         'no-useless-constructor': 'error',
