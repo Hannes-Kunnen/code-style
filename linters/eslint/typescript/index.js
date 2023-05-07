@@ -36,14 +36,12 @@ module.exports = {
         '@typescript-eslint/consistent-type-imports': 'error',
         '@typescript-eslint/default-param-last': 'error',
         '@typescript-eslint/dot-notation': 'error',
-        '@typescript-eslint/explicit-function-return-type': 'error',
         '@typescript-eslint/explicit-member-accessibility': [
             'error',
             {
                 accessibility: 'no-public',
             },
         ],
-        '@typescript-eslint/explicit-module-boundary-types': 'error',
         '@typescript-eslint/func-call-spacing': 'error',
         '@typescript-eslint/keyword-spacing': 'error',
         '@typescript-eslint/member-delimiter-style': 'error',
