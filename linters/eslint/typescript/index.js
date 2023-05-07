@@ -96,11 +96,13 @@ module.exports = {
         '@typescript-eslint/no-dynamic-delete': 'error',
         '@typescript-eslint/no-extra-parens': 'error',
         '@typescript-eslint/no-extraneous-class': 'error',
+        '@typescript-eslint/no-explicit-any': 'error',
         '@typescript-eslint/no-invalid-this': 'error',
         '@typescript-eslint/no-invalid-void-type': 'error',
         '@typescript-eslint/no-meaningless-void-operator': 'error',
         '@typescript-eslint/no-mixed-enums': 'error',
         '@typescript-eslint/no-non-null-asserted-nullish-coalescing': 'error',
+        '@typescript-eslint/no-non-null-assertion': 'error',
         '@typescript-eslint/no-redeclare': 'error',
         '@typescript-eslint/no-redundant-type-constituents': 'error',
         '@typescript-eslint/no-require-imports': 'error',
@@ -119,6 +121,12 @@ module.exports = {
         '@typescript-eslint/no-unsafe-declaration-merging': 'error',
         '@typescript-eslint/no-unsafe-enum-comparison': 'error',
         '@typescript-eslint/no-unused-expressions': 'error',
+        '@typescript-eslint/no-unused-vars': [
+            'error',
+            {
+                "args": "none"
+            }
+        ],
         '@typescript-eslint/no-use-before-define': [
             'error',
             {
