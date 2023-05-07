@@ -94,8 +94,14 @@ module.exports = {
         '@typescript-eslint/no-duplicate-enum-values': 'error',
         '@typescript-eslint/no-duplicate-type-constituents': 'error',
         '@typescript-eslint/no-dynamic-delete': 'error',
-        '@typescript-eslint/no-extra-parens': 'error',
         '@typescript-eslint/no-explicit-any': 'error',
+        '@typescript-eslint/no-extra-parens': [
+            'error',
+            'all',
+            {
+                nestedBinaryExpressions: false,
+            }
+        ],
         '@typescript-eslint/no-extraneous-class': 'off',
         '@typescript-eslint/no-invalid-this': 'error',
         '@typescript-eslint/no-invalid-void-type': 'error',
