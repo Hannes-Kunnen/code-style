@@ -16,8 +16,8 @@
         "url": "git+https://github.com/Hannes-Kunnen/code-style.git"
     },
     "license": "LGPL-3.0",
-    "dependencies": {
-        "eslint": "^8.38.0",
+    "peerDependencies": {
+        "eslint": ">=8.38.0",
         "eslint-plugin-import": "~2.26.0",
         "eslint-plugin-unicorn": "^46.0.0"
     },
