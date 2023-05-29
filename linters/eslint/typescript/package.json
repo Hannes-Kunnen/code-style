@@ -17,12 +17,11 @@
     },
     "license": "LGPL-3.0",
     "dependencies": {
-        "@hannes-kunnen/eslint-config-javascript": "1.1.0",
+        "@hannes-kunnen/eslint-config-javascript": "workspace:^",
         "@typescript-eslint/eslint-plugin": "^5.58.0",
         "@typescript-eslint/parser": "^5.58.0"
     },
     "files": [
         "index.js"
-    ],
-    "packageManager": "yarn@3.2.4"
+    ]
 }

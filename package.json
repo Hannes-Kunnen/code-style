@@ -10,5 +10,8 @@
     },
     "license": "LGPL-3.0",
     "private": true,
-    "packageManager": "yarn@3.2.4"
+    "workspaces": [
+        "linters/eslint/*"
+    ],
+    "packageManager": "yarn@3.5.1"
 }
