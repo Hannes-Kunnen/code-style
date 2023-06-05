@@ -29,7 +29,7 @@ __metadata:
   peerDependencies:
     eslint: ">=8.38.0"
     eslint-plugin-import: ~2.26.0
-    eslint-plugin-unicorn: ^46.0.0
+    eslint-plugin-unicorn: ^47.0.0
   languageName: unknown
   linkType: soft
 
@@ -43,7 +43,7 @@ __metadata:
   peerDependencies:
     eslint: ">=8.38.0"
     eslint-plugin-import: ~2.26.0
-    eslint-plugin-unicorn: ^46.0.0
+    eslint-plugin-unicorn: ^47.0.0
     typescript: "*"
   languageName: unknown
   linkType: soft
